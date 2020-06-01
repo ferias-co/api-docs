@@ -8,7 +8,7 @@ info:
   title: "Swagger Petstore"
   x-logo:
     url: https://ferias-co.github.io/api-docs/logo.jpg
-    altText: Férias&Co
+    altText: API Docs
   termsOfService: "http://swagger.io/terms/"
   contact:
     email: "apiteam@swagger.io"
