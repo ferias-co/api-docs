@@ -1,0 +1,20 @@
+{
+  "name": "api-docs",
+  "version": "0.1.0",
+  "description": "Documentação das APIs abertas da Férias&Co.",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "redoc-cli bundle swagger.yml -t template.hbs -o docs/index.html",
+    "serve": "redoc-cli serve swagger.yml -t template.hbs"
+  },
+  "keywords": [
+    "api",
+    "docs",
+    "ferias-co"
+  ],
+  "author": "Férias&Co.",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "redoc-cli": "^0.9.8"
+  }
+}
