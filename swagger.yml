@@ -104,6 +104,8 @@ paths:
             items:
               $ref: "#/definitions/Colaborador"
       responses:
+        "200":
+          description: "Colaboradores estão sendo processados em nosso sistema."
         "401": 
           description: "Unauthorized"
         "405":
