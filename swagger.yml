@@ -35,7 +35,7 @@ paths:
       parameters:
       - in: "body"
         name: "body"
-        description: "Gera um token de autênticação."
+        description: "Gera um token de autenticação."
         required: true
         schema:
           $ref: "#/definitions/RequestToken"
