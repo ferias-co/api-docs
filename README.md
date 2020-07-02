@@ -34,6 +34,6 @@ Para alterar o logo, adicionar o arquivo em `/docs` e substituir a url nas defin
 ```
   title: "API title"
   x-logo:
-    url: https://ferias-co.github.io/api-docs/logo.jpg
+    url: https://ferias-co.github.io/api-docs/logo.png
     altText: API title
 ```

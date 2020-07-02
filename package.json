@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "bundle": "redoc-cli bundle swagger.yml -t template.hbs -o docs/index.html",
-    "serve": "redoc-cli serve swagger.yml -t template.hbs"
+    "serve": "npm run bundle && redoc-cli serve swagger.yml -t template.hbs"
   },
   "keywords": [
     "api",

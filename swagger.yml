@@ -4,7 +4,7 @@ info:
   version: "1.0.0"
   title: "Open API - Férias & Co."
   x-logo:
-    url: https://ferias-co.github.io/api-docs/logo.jpg
+    url: https://ferias-co.github.io/api-docs/logo.png
     altText: API Docs
   license:
     name: "Apache 2.0"
